@@ -1,6 +1,6 @@
 # Beamer Presentation Template
 
-A clean, minimal LaTeX Beamer template for academic seminar and conference presentations, styled in a navy-blue serif theme.
+A clean, minimal LaTeX Beamer template for academic seminars and conference presentations, styled in a navy-blue serif theme.
 
 ## Features
 
@@ -22,15 +22,6 @@ A clean, minimal LaTeX Beamer template for academic seminar and conference prese
 - BibTeX for the bibliography (`natbib` with the `apalike` style)
 - Packages: `beamer`, `mathpazo`, `booktabs`, `graphicx`, `amsmath`, `amssymb`, `mathtools`, `natbib`, `tcolorbox`, `tabularx`, `array`, `multirow`, `appendixnumberbeamer`, `tikz`, `soul`, `xcolor`
 
-## Compilation
-
-```bash
-pdflatex slides_template.tex
-bibtex   slides_template
-pdflatex slides_template.tex
-pdflatex slides_template.tex
-```
-
 ## Project Structure
 
 ```
@@ -43,3 +34,6 @@ pdflatex slides_template.tex
 ## Usage
 
 Replace the placeholder title, author, and frame content with your own material, add references to `ref.bib`, and place figures in `figures/`.
+
+## Licence
+The code in this repository is released under the MIT Licence.
